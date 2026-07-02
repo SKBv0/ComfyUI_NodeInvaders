@@ -1,0 +1,23 @@
+[project]
+name = "ComfyUI_NodeInvaders"
+version = "1.0.0"
+description = "A small arcade shooter that runs inside the ComfyUI canvas."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "SKBv0" }
+]
+keywords = ["comfyui", "game", "arcade", "frontend-extension"]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/SKBv0/ComfyUI_NodeInvaders"
+"Bug Tracker" = "https://github.com/SKBv0/ComfyUI_NodeInvaders/issues"
+
+[tool.comfy]
+PublisherId = "skb"
+DisplayName = "ComfyUI NodeInvaders"
